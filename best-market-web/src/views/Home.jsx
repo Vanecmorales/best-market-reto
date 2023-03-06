@@ -3,9 +3,8 @@ import FreeShipping from "../components/FreeShipping";
 import Categories from "../components/Categories";
 import Promotions from "../components/Promotions";
 import Search from "../components/Search";
-import Products from "../components/Products";
+import ProductList from "../components/Products";
 import Footer from "../components/Footer";
-
 
 
 const Home = () => {
@@ -23,7 +22,7 @@ const Home = () => {
         </section>
       </div>
       <section className="productsListContainer">
-        <Products/>
+        <ProductList/>
       </section>
       <footer className="footerContainer">
         <Footer/>

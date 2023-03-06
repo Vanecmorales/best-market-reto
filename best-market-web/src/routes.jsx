@@ -4,6 +4,9 @@ import Login from "./views/Login";
 import Register from "./views/Register";
 import Promotions from "./views/Promotions";
 import ShoppingCart from "./views/ShoppingCart";
+import Categories from "./components/Categories";
+
+
 
 const AppRoutes = () => {
   return (
@@ -12,8 +15,8 @@ const AppRoutes = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
-        <Route path="/promotions" element={<Promotions/>} />
-        <Route path="/shoppingCart" element={<ShoppingCart/>} />
+        <Route path="/categories" element={<Categories/>} />
+        <Route path="/promotions" element={<Promotions/>} />        
       </Routes>
     </div>
   );
