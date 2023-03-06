@@ -9,7 +9,7 @@ const Nav = () => {
       <LoginButton />
       <RegisterButton />
       <button className="shoppingCarButton">
-        <Link to="/shoppingCart">Car</Link>
+        <Link to="/shoppingCar">Car</Link>
       </button>
     </div>
   );
