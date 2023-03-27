@@ -39,3 +39,8 @@ Uno de nuestros clientes visita nuestra aplicación web:
 - Las secciones de inicio de sesión, registro y carrito de compra pueden ser una ventana independiente o un modal, recuerden, ¡mientras más simple, mucho mejor!
 
 - Para el despliegue pueden utilizar GitHub pages u otro servicio de hosting (Firebase, Netlify, Vercel, etc).
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 709a3783ac87ddeb154ea9c9aefc3f75b4821155
