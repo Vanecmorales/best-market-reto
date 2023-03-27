@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import AddToCarButton from "./AddToCarButton";
 
 const ProductList = () => {
   const [items, setItems] = useState([]);
@@ -18,10 +19,11 @@ const ProductList = () => {
     <>
       {items.map((item) => (
         <div className="singleProductContainer" key={item.id}>
-          <img src={item.images[0]} className="itemImage" alt=""/>
           <h2 className="itemTitle">{item.title}</h2>
+          <img src={item.images[0]} className="itemImage" alt="" />
           <p className="itemDescription">{item.description}</p>
           <p className="itemPrice">${item.price}</p>
+          <AddToCarButton />
         </div>
       ))}
     </>
