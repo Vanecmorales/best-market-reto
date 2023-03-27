@@ -15,16 +15,16 @@ const ProductList = () => {
   }, []); // Al colocar un array vacio se ejecutará una única vez cuando se utilice el componente
 
   return (
-    <div>
+    <>
       {items.map((item) => (
-        <div key={item.id}>
+        <div className="singleProductContainer" key={item.id}>
           <img src={item.images[0]} className="itemImage" alt=""/>
-          <h2>{item.title}</h2>
-          <p>{item.description}</p>
-          <p>${item.price}</p>
+          <h2 className="itemTitle">{item.title}</h2>
+          <p className="itemDescription">{item.description}</p>
+          <p className="itemPrice">${item.price}</p>
         </div>
       ))}
-    </div>
+    </>
   );
 };
 
