@@ -6,7 +6,7 @@ const ProductList = () => {
   const getProducts = async () => {
     const url = await fetch("https://dummyjson.com/products");
     const data = await url.json();
-    console.log(data.products);
+    // console.log(data.products);
     setItems(data.products);
   };
 
@@ -18,6 +18,7 @@ const ProductList = () => {
     <div>
       {items.map((item) => (
         <div key={item.id}>
+          <img src={item.images[0]} className="itemImage" alt=""/>
           <h2>{item.title}</h2>
           <p>{item.description}</p>
           <p>${item.price}</p>
