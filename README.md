@@ -41,6 +41,6 @@ Uno de nuestros clientes visita nuestra aplicación web:
 - Para el despliegue pueden utilizar GitHub pages u otro servicio de hosting (Firebase, Netlify, Vercel, etc).
 
 ##### Prototipo:
- 
-## Screenshots  
-![Home Page](https://ibb.co/bm44Wss)  
+
+<img src= "./src/assets/Home.png">
+
