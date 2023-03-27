@@ -40,7 +40,4 @@ Uno de nuestros clientes visita nuestra aplicación web:
 
 - Para el despliegue pueden utilizar GitHub pages u otro servicio de hosting (Firebase, Netlify, Vercel, etc).
 
-##### Prototipo:
-
-<img src= "./src/assets/Home.png">
 
